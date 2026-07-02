@@ -1,0 +1,16 @@
+# Dépendances
+node_modules/
+
+# Source EN CLAIR du simulateur — ne jamais pousser sur ce dépôt public.
+# Seule la version chiffrée (index.html à la racine) est publiée.
+# ⚠️ Sauvegarde src/ ailleurs (Drive, repo privé) : c'est ta seule source de travail.
+src/
+
+# Dossier temporaire de build StatiCrypt
+.staticrypt-build/
+
+# Ancien dossier de sortie StatiCrypt (remplacé par le build vers la racine)
+encrypted/
+
+# Divers
+.DS_Store

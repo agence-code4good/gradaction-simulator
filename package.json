@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "staticrypt src/index.html --short -d .staticrypt-build && cp .staticrypt-build/index.html index.html && rm -rf .staticrypt-build"
+  },
+  "dependencies": {
+    "staticrypt": "^3.5.4"
+  }
+}
